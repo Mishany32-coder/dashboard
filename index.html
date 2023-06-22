@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230622103823">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<!-- <button type="button" class="menu__icon icon-menu"><span></span></button> -->
+			<div class="header__mobile-column"></div>
+			<div class="header__menu menu">
+				<div data-da=".header__mobile-column,767.98,0" class="menu__logo logo-menu">
+					<picture><source srcset="img/logo-ico.webp" type="image/webp"><img class="logo-menu__ico" src="img/logo-ico.png" alt="logo"></picture>
+					<picture><source srcset="img/logo-text.webp" type="image/webp"><img class="logo-menu__text" src="img/logo-text.png" alt="logo"></picture>
+				</div>
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li class="menu__item _icon-key-square"><a class="menu__link">Dashboard</a></li>
+						<li class="menu__item _icon-3d-square"><a class="menu__link">Product</a></li>
+						<li class="menu__item _icon-user _selected"><a class="menu__link">Customers</a></li>
+						<li class="menu__item _icon-wallet-money"><a class="menu__link">Income</a></li>
+						<li class="menu__item _icon-discount"><a class="menu__link">Promote</a></li>
+						<li class="menu__item _icon-message-question"><a class="menu__link">Help</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div data-da=".header__mobile-column,767.98,1" class="header__user user-header">
+				<div class="user-header__ico">
+					<picture><source srcset="img/user-ico.webp" type="image/webp"><img class="user-header__image" src="img/user-ico.jpg" alt="ico"></picture>
+				</div>
+				<div class="user-header__content">
+					<h2 class="user-header__title">Evano</h2>
+					<h3 class="user-header__subtitle">Project Manager</h3>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__container">
+
+				<h1 class="page__title">Hello Evano 👋🏼,</h1>
+				<section class="customers">
+					<div class="customers__head head-customers">
+						<div class="head-customers__content">
+							<h2 class="head-customers__title">All Customers</h2>
+							<p class="head-customers__label">Active Members</p>
+						</div>
+						<div class="head-customers__search ">
+							<input id="search" autocomplete="off" type="text" data-error="Ошибка" placeholder="Search" class="head-customers__input input">
+							<label for="search" class="head-customers__search-icon"></label>
+						</div>
+					</div>
+					<div class="customers__table">
+						<table class="table-customers">
+							<thead class="table-customers__head">
+								<tr class="table-customers__row">
+									<th class="table-customers__cell">Customer Name</th>
+									<th class="table-customers__cell">Company</th>
+									<th class="table-customers__cell">Phone Number</th>
+									<th class="table-customers__cell">Email</th>
+									<th class="table-customers__cell">Country</th>
+									<th class="table-customers__cell">Status</th>
+								</tr>
+							</thead>
+							<tbody class="table-customers__body">
+							</tbody>
+						</table>
+					</div>
+					<div class="customers__pagination pagination">
+						<p class="pagination__text">Showing data 1 to 8 of 256K entries</p>
+						<div class="pagination__items">
+							<!-- <span class="pagination__item pagination__item_prev ">&lt;</span>
+                     <span class="pagination__item _selected">1</span>
+                     <span class="pagination__item">2</span>
+                     <span class="pagination__item">3</span>
+                     <span class="pagination__item">4</span>
+                     <span class="pagination__item pagination__item_ellipsis">...</span>
+                     <span class="pagination__item">40</span>
+                     <span class="pagination__item pagination__item_next">&gt;</span> -->
+						</div>
+					</div>
+				</section>
+		</main>
+	</div>
+	<script src="js/app.min.js?_v=20230622103823"></script>
+</body>
+
+</html>
